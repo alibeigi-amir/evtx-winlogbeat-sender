@@ -1,4 +1,4 @@
-# evtx-winlogbeat-sender
+# evtx-winlogbeat-sender 📄
 PowerShell script to ship Windows EVTX logs to Elasticsearch via Winlogbeat
 
 <!-- markdownlint-disable MD033 MD041 -->
@@ -11,7 +11,7 @@ PowerShell script to ship Windows EVTX logs to Elasticsearch via Winlogbeat
 ![GitHub last commit](https://img.shields.io/github/last-commit/YOUR_USERNAME/evtx-winlogbeat-processor?logo=github)
 ![PowerShell](https://img.shields.io/badge/PowerShell-5.1+-5391FE?logo=powershell&logoColor=white)
 ![Winlogbeat](https://img.shields.io/badge/Winlogbeat-8.x-005571?logo=elastic&logoColor=white)
-![License](https://img.shields.io/github/license/YOUR_USERNAME/evtx-winlogbeat-processor?color=blue)
+![License](https://img.shields.io/github/license/YOUR_USERNAME/evtx-winlogbeat-sender?color=blue)
 
 </div>
 
@@ -24,7 +24,7 @@ Batch-ships Windows `.evtx` logs to **Elasticsearch** via **Winlogbeat** with a 
 
 ## ⚡ Quick start
 ```powershell
-.\scripts\Process-EvtxWithWinlogbeat.ps1 `
+.\scripts\evtx-winlogbeat-sender.ps1 `
     -Source "C:\Logs" `
     -WinlogbeatExe  "C:\Program Files\Winlogbeat\winlogbeat.exe" `
     -ConfigFile    "C:\Program Files\Winlogbeat\winlogbeat.yml" `
