@@ -3,7 +3,7 @@ PowerShell script to ship Windows EVTX logs to Elasticsearch via Winlogbeat
 
 <!-- markdownlint-disable MD033 MD041 -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=160&section=header&text=evtx-winlogbeat-processor&fontSize=38&fontColor=ffffff&animation=fadeIn" alt="header"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=160&section=header&text=evtx-winlogbeat-sender&fontSize=38&fontColor=ffffff&animation=fadeIn" alt="header"/>
 </p>
 
 <div align="center">
